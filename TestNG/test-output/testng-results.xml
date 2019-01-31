@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28851" started-at="2019-01-11T09:29:41Z" finished-at="2019-01-11T09:30:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28851" started-at="2019-01-11T09:29:41Z" finished-at="2019-01-11T09:30:10Z">
+      <class name="eShopLegacy.eShopLegacyTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:eShopLegacy.eShopLegacyTests@7d9d1a19]" name="setUp" is-config="true" duration-ms="3247" started-at="2019-01-11T09:29:41Z" finished-at="2019-01-11T09:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testShopACQ()[pri:0, instance:eShopLegacy.eShopLegacyTests@7d9d1a19]" name="testShopACQ" duration-ms="24829" started-at="2019-01-11T09:29:45Z" finished-at="2019-01-11T09:30:09Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Remote browser did not respond to getCurrentUrl
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'E0443121', ip: '10.18.203.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Remote browser did not respond to getCurrentUrl
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'E0443121', ip: '10.18.203.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: RemoteWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:289)
+at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:109)
+at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:104)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at eShopLegacy.eShopLegacyTests.testShopACQ(eShopLegacyTests.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShopACQ -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:eShopLegacy.eShopLegacyTests@7d9d1a19]" name="tearDown" is-config="true" duration-ms="746" started-at="2019-01-11T09:30:10Z" finished-at="2019-01-11T09:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- eShopLegacy.eShopLegacyTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
